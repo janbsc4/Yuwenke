@@ -1,0 +1,135 @@
+id,tipo,tema,hanzi,pinyin,espanol,explicacion,ejemplo_hanzi,ejemplo_pinyin,ejemplo_espanol,pagina,etiquetas
+FC001,palabra,pronombres,我,wǒ,yo,Pronombre personal de primera persona singular.,我是学生。,Wǒ shì xuésheng.,Soy estudiante.,1-3,pronombre;basico
+FC002,palabra,pronombres,你,nǐ,tú,Pronombre informal de segunda persona singular.,你好吗？,Nǐ hǎo ma?,¿Cómo estás?,1-3,pronombre;basico
+FC003,palabra,pronombres,您,nín,usted,"Forma respetuosa de 'tú'; se usa con personas mayores, superiores o en contextos formales.",您怎么样？,Nín zěnmeyàng?,¿Cómo está usted?,1-4,pronombre;formal;cortesia
+FC004,palabra,pronombres,他,tā,él,Pronombre de tercera persona masculino.,他姓吴。,Tā xìng Wú.,Él se apellida Wu.,1;4;8,pronombre
+FC005,palabra,pronombres,她,tā,ella,Pronombre de tercera persona femenino; se pronuncia igual que 他.,她是Fátima。,Tā shì Fátima.,Ella es Fátima.,1;5;9,pronombre
+FC006,palabra,pronombres,它,tā,ello / eso,Pronombre de tercera persona para animales u objetos; se pronuncia igual que 他 y 她.,它很好。,Tā hěn hǎo.,Está muy bien.,1-2,pronombre;animales;objetos
+FC007,palabra,pronombres,们,men,sufijo de plural,Se añade sobre todo a pronombres y sustantivos de persona; no es un plural general para objetos.,你们,nǐmen,vosotros / ustedes,1-2;6;15,gramatica;plural
+FC008,palabra,pronombres,我们,wǒmen,nosotros / nosotras,Plural de 我.,我们一般。,Wǒmen yìbān.,Estamos regular.,1;4-5,pronombre;plural
+FC009,palabra,pronombres,你们,nǐmen,vosotros / ustedes,Plural de 你.,你们好吗？,Nǐmen hǎo ma?,¿Cómo estáis? / ¿Cómo están ustedes?,3-5;9,pronombre;plural
+FC010,concepto,pronombres,他／她／它,tā,pronombres homófonos,"En mandarín hablado, 'él', 'ella' y 'ello' suenan igual; la diferencia aparece en los caracteres escritos.",他、她、它都读 tā。,"Tā, tā, tā dōu dú tā.",Los tres caracteres se leen tā.,1-2,pronunciacion;pronombre
+FC011,concepto,caracteres,笔顺,bǐshùn,orden de los trazos,Los caracteres se escriben siguiendo un orden convencional de trazos.,你,nǐ,tú,1-3,escritura;trazos
+FC012,concepto,caracteres,先左后右,xiān zuǒ hòu yòu,"primero izquierda, después derecha",Regla básica de escritura para caracteres con partes a izquierda y derecha.,你,nǐ,El radical 亻 se escribe antes que 尔.,1-3,escritura;trazos
+FC013,concepto,caracteres,先上后下,xiān shàng hòu xià,"primero arriba, después abajo",Regla básica de escritura para caracteres con partes superiores e inferiores.,您,nín,La parte superior se escribe antes que 心.,1-3,escritura;trazos
+FC014,concepto,caracteres,左右结构,zuǒyòu jiégòu,estructura izquierda-derecha,El carácter se divide en un componente izquierdo y otro derecho.,你,nǐ,亻 a la izquierda y 尔 a la derecha.,3,estructura;caracter
+FC015,concepto,caracteres,上下结构,shàngxià jiégòu,estructura arriba-abajo,El carácter se divide en un componente superior y otro inferior.,您,nín,你 arriba y 心 abajo.,3,estructura;caracter
+FC016,concepto,caracteres,全包围结构,quán bāowéi jiégòu,estructura completamente circundante,Un componente exterior rodea completamente al componente interior.,国、因,"guó, yīn",Ejemplos de caracteres circundantes.,3,estructura;caracter
+FC017,concepto,caracteres,半包围结构,bàn bāowéi jiégòu,estructura semicircundante,Un componente rodea al resto solo por algunos lados.,过、周,"guò, zhōu",Ejemplos de caracteres semicircundantes.,3,estructura;caracter
+FC018,concepto,caracteres,独体字,dútǐzì,carácter independiente,Carácter que se estudia como una unidad no dividida en bloques estructurales mayores.,我、卡,"wǒ, kǎ",Ejemplos de caracteres independientes.,3,estructura;caracter
+FC019,concepto,caracteres,部首,bùshǒu,radical,"Componente principal usado para clasificar un carácter en diccionarios. Un carácter se clasifica bajo un radical, aunque pueda contener varios componentes.",您 → 心,nín → xīn,"En 您, el radical de clasificación es 心.",3,radical;diccionario
+FC020,palabra,radicales,心／忄,xīn,corazón,心 significa 'corazón' y aparece como radical; su forma lateral frecuente es 忄.,您,nín,usted,3,radical;caracter
+FC021,palabra,radicales,人／亻,rén,persona,人 significa 'persona'; como componente lateral suele escribirse 亻.,你、他,"nǐ, tā",tú; él,3;6,radical;caracter
+FC022,palabra,radicales,女,nǚ,mujer / femenino,Palabra y radical relacionado con mujer o femenino.,她、好,"tā, hǎo",ella; bien,6;10,radical;familia
+FC023,palabra,radicales,父,fù,padre,Carácter y componente relacionado con 'padre'.,爸爸,bàba,papá,6-7,radical;familia
+FC024,palabra,radicales,口,kǒu,boca,Carácter y radical relacionado con la boca o con acciones de habla.,吗,ma,partícula interrogativa,10,radical;caracter
+FC025,palabra,radicales,门,mén,puerta,Carácter que significa 'puerta'.,门,mén,puerta,6,caracter;basico
+FC026,palabra,radicales,子,zǐ,hijo / niño,Carácter que significa 'hijo' o 'niño'.,好,hǎo,bien,10,caracter;familia
+FC027,concepto,caracteres,女＋子＝好,nǚ + zǐ = hǎo,composición de 好,"Mnemotecnia tradicional de las notas: 女 y 子 forman 好, 'bueno/bien'. No describe por sí sola el uso moderno del carácter.",好,hǎo,bien / bueno,10,etimologia;mnemotecnia
+FC028,palabra,saludos,好,hǎo,bien / bueno,Adjetivo básico de valoración positiva.,很好,hěn hǎo,muy bien,4-5;10;13,basico;saludo
+FC029,frase,saludos,你好！,Nǐ hǎo!,¡Hola!,Saludo básico dirigido a una persona.,你好！,Nǐ hǎo!,¡Hola!,5;9,saludo;basico
+FC030,palabra,gramatica,吗,ma,partícula de pregunta sí/no,Se coloca al final de una oración afirmativa para convertirla en una pregunta cerrada.,你好吗？,Nǐ hǎo ma?,¿Estás bien? / ¿Cómo estás?,3-5;10,particula;pregunta
+FC031,frase,saludos,你好吗？,Nǐ hǎo ma?,¿Cómo estás?,Literalmente pregunta si la otra persona está bien.,你好，我很好。,"Nǐ hǎo, wǒ hěn hǎo.","Hola, estoy muy bien.",3-5,saludo;pregunta
+FC032,palabra,saludos,怎么样,zěnmeyàng,cómo / qué tal,"Expresión para preguntar por el estado, la opinión o la manera en que está algo.",您怎么样？,Nín zěnmeyàng?,¿Qué tal está usted?,3-5;15,pregunta;saludo
+FC033,frase,saludos,你们怎么样？,Nǐmen zěnmeyàng?,¿Qué tal estáis? / ¿Cómo están ustedes?,Pregunta por el estado de varias personas.,你们怎么样？,Nǐmen zěnmeyàng?,¿Cómo estáis?,3-5,saludo;plural
+FC034,palabra,descripcion,很,hěn,muy,Adverbio de grado; también enlaza con naturalidad un sujeto y un adjetivo en muchas frases.,我很好。,Wǒ hěn hǎo.,Estoy muy bien.,3-5,adverbio;grado
+FC035,frase,descripcion,很好,hěn hǎo,muy bien,Respuesta positiva al preguntar cómo está alguien.,我很好。,Wǒ hěn hǎo.,Estoy muy bien.,3-5,estado;saludo
+FC036,palabra,gramatica,不,bù,no / no ser / no estar,Adverbio de negación que se coloca antes de un verbo o adjetivo.,不好,bù hǎo,mal / no estar bien,4,negacion;basico
+FC037,frase,descripcion,不好,bù hǎo,mal / no estar bien,Valoración o estado negativo.,我们不好。,Wǒmen bù hǎo.,No estamos bien.,4-5,estado;negacion
+FC038,palabra,descripcion,一般,yìbān,normal / regular / del montón,"En una respuesta sobre el estado, equivale a 'regular' o 'así así'.",我们一般。,Wǒmen yìbān.,Estamos regular.,4,estado;respuesta
+FC039,frase,saludos,您怎么样？,Nín zěnmeyàng?,¿Qué tal está usted?,Versión respetuosa de la pregunta con 您.,我很好。,Wǒ hěn hǎo.,Estoy muy bien.,3-4,saludo;formal
+FC040,frase,saludos,我很好。,Wǒ hěn hǎo.,Estoy muy bien.,Respuesta positiva sobre el propio estado.,您怎么样？我很好。,Nín zěnmeyàng? Wǒ hěn hǎo.,¿Qué tal está usted? Estoy muy bien.,3-5,respuesta;saludo
+FC041,frase,saludos,你们好吗？,Nǐmen hǎo ma?,¿Estáis bien? / ¿Cómo están ustedes?,Pregunta cerrada dirigida a varias personas.,我们一般。,Wǒmen yìbān.,Estamos regular.,4;9,pregunta;plural
+FC042,frase,saludos,我们一般。,Wǒmen yìbān.,Estamos regular.,Respuesta sobre el estado de un grupo que incluye al hablante.,你们好吗？我们一般。,Nǐmen hǎo ma? Wǒmen yìbān.,¿Cómo estáis? Estamos regular.,4,respuesta;plural
+FC043,palabra,gramatica,呢,ne,¿y…? / partícula de continuación,"Después de un tema, devuelve la misma pregunta: '¿y tú?', '¿y él?'.",你呢？,Nǐ ne?,¿Y tú?,6;15,particula;pregunta
+FC044,frase,saludos,你呢？,Nǐ ne?,¿Y tú?,Pregunta el mismo dato sobre la otra persona sin repetir toda la oración.,我很好，你呢？,"Wǒ hěn hǎo, nǐ ne?","Estoy muy bien, ¿y tú?",6;15,pregunta;conversacion
+FC045,palabra,basico,大,dà,grande,Adjetivo básico; forma parte de 大家.,大家,dàjiā,todos / todo el mundo,5-6;15,adjetivo;caracter
+FC046,palabra,basico,家,jiā,casa / familia / hogar,Sustantivo básico; forma parte de 大家.,大家,dàjiā,todos / todo el mundo,6;15,sustantivo;caracter
+FC047,palabra,pronombres,大家,dàjiā,todos / todo el mundo,Pronombre colectivo para dirigirse o referirse a un grupo.,大家好！,Dàjiā hǎo!,¡Hola a todos!,6;9;15,plural;saludo
+FC048,palabra,gramatica,也,yě,también,Adverbio que suele colocarse antes del verbo o predicado.,我也很好。,Wǒ yě hěn hǎo.,Yo también estoy muy bien.,6;15,adverbio;basico
+FC049,concepto,puntuacion,标点符号,biāodiǎn fúhào,puntuación china,"En chino se usan signos de ancho completo: coma ，, punto 。, exclamación ！ e interrogación ？. No se añaden los signos de apertura españoles ¿ y ¡.",你好！你好吗？,Nǐ hǎo! Nǐ hǎo ma?,¡Hola! ¿Cómo estás?,5,puntuacion;escritura
+FC050,concepto,cultura,送礼禁忌,sònglǐ jìnjì,tabúes al hacer regalos,"Las notas enumeran regalos que algunas personas evitan por homófonos o asociaciones culturales. Son convenciones culturales, no reglas universales.",送礼,sònglǐ,hacer un regalo,5,cultura;regalos
+FC051,concepto,cultura,钟／送钟,zhōng / sòng zhōng,reloj / regalar un reloj,"Puede evitarse porque 送钟 suena igual que 送终, expresión vinculada a acompañar a alguien al final de la vida.",别送钟。,Bié sòng zhōng.,No regales un reloj.,5,cultura;regalos;homofono
+FC052,concepto,cultura,伞／散,sǎn / sàn,paraguas / separarse,Regalar un paraguas puede asociarse con la separación porque 伞 y 散 tienen pronunciaciones parecidas.,送伞,sòng sǎn,regalar un paraguas,5,cultura;regalos;homofono
+FC053,concepto,cultura,梨／离,lí / lí,pera / separarse,"Regalar una pera puede evocar separación porque 梨 suena igual que 离, 'separarse o alejarse'.",送梨,sòng lí,regalar una pera,5,cultura;regalos;homofono
+FC054,concepto,cultura,鞋／邪,xié / xié,zapatos / asociación con mala suerte,"En algunas tradiciones se evitan los zapatos como regalo por su asociación sonora con 邪, 'maligno', o con la idea de alejarse.",送鞋,sòng xié,regalar zapatos,5,cultura;regalos;homofono
+FC055,concepto,cultura,绿帽子,lǜ màozi,sombrero verde,"En la expresión 戴绿帽子, llevar un sombrero verde implica que la pareja ha sido infiel; por eso es un regalo inapropiado.",戴绿帽子,dài lǜ màozi,llevar el 'sombrero verde' de la infidelidad,5,cultura;regalos;expresion
+FC056,palabra,familia,爸爸,bàba,papá / padre,Forma familiar habitual para 'padre'.,我的爸爸,wǒ de bàba,mi padre,7;9;11,familia
+FC057,palabra,familia,妈妈,māma,mamá / madre,Forma familiar habitual para 'madre'.,我妈妈,wǒ māma,mi madre,7;9,familia
+FC058,palabra,familia,爷爷,yéye,abuelo paterno,Padre del padre.,我的爷爷,wǒ de yéye,mi abuelo paterno,7;12,familia
+FC059,palabra,familia,奶奶,nǎinai,abuela paterna,Madre del padre.,我奶奶,wǒ nǎinai,mi abuela paterna,7;12,familia
+FC060,palabra,familia,外公,wàigōng,abuelo materno,Padre de la madre. El elemento 外 distingue la rama materna.,外公,wàigōng,abuelo materno,7,familia
+FC061,palabra,familia,外婆,wàipó,abuela materna,Madre de la madre. El elemento 外 distingue la rama materna.,外婆,wàipó,abuela materna,7,familia
+FC062,palabra,gramatica,的,de,partícula posesiva o atributiva,Une el poseedor y lo poseído: A 的 B = 'el B de A'.,我的妈妈,wǒ de māma,mi madre,7;11-12,particula;posesion
+FC063,concepto,gramatica,亲属称谓省略“的”,qīnshǔ chēngwèi shěnglüè de,omisión de 的 con familiares cercanos,Con relaciones personales cercanas suele omitirse 的: 我妈妈 suena más natural que 我的妈妈 en conversación cotidiana.,我的妈妈 → 我妈妈,wǒ de māma → wǒ māma,mi madre,7,posesion;familia
+FC064,frase,familia,我的妈妈,wǒ de māma,mi madre,Forma gramatical completa con la partícula posesiva 的.,我的妈妈姓徐。,Wǒ de māma xìng Xú.,Mi madre se apellida Xu.,7;9,familia;posesion
+FC065,frase,familia,我妈妈,wǒ māma,mi madre,Forma habitual que omite 的 por tratarse de una relación cercana.,我妈妈姓徐。,Wǒ māma xìng Xú.,Mi madre se apellida Xu.,7;9,familia;posesion
+FC066,palabra,paises,中国,Zhōngguó,China,Nombre del país.,中国,Zhōngguó,China,7,pais
+FC067,palabra,paises,日本,Rìběn,Japón,Nombre del país.,日本,Rìběn,Japón,7,pais
+FC068,palabra,paises,韩国,Hánguó,Corea del Sur,Nombre habitual de Corea del Sur en mandarín.,韩国,Hánguó,Corea del Sur,7,pais
+FC069,palabra,nombres,叫,jiào,llamarse / llamar,Se usa para decir el nombre completo o el nombre por el que se conoce a alguien.,我叫小明。,Wǒ jiào Xiǎomíng.,Me llamo Xiaoming.,8-12,verbo;presentacion
+FC070,palabra,nombres,姓,xìng,apellidarse / apellido,"Como verbo, indica el apellido de una persona.",他姓吴。,Tā xìng Wú.,Él se apellida Wu.,8-14,verbo;apellido
+FC071,palabra,nombres,名字,míngzi,nombre,Se refiere al nombre de una persona; según el contexto puede abarcar el nombre completo.,我的名字是Carla。,Wǒ de míngzi shì Carla.,Mi nombre es Carla.,8-11,sustantivo;presentacion
+FC072,palabra,basico,是,shì,ser,Verbo copulativo usado para identificar o clasificar; no suele conectar un sujeto con un adjetivo simple.,我是José。,Wǒ shì José.,Soy José.,8-9;14,verbo;basico
+FC073,concepto,nombres,姓＋名字,xìng + míngzi,orden de un nombre chino,El apellido va antes del nombre de pila: 姓 seguido de 名字.,张欣,Zhāng Xīn,Zhang es el apellido y Xin el nombre.,10-11,nombre;apellido
+FC074,concepto,nombres,姓通常是一个汉字,xìng tōngcháng shì yí ge Hànzì,el apellido suele tener un carácter,"La mayoría de apellidos chinos tienen un carácter, aunque también existen apellidos compuestos.",吴、刘、孙,"Wú, Liú, Sūn",Apellidos de un carácter.,10-14,apellido;caracter
+FC075,concepto,nombres,名字通常有一到两个汉字,míngzi tōngcháng yǒu yí dào liǎng ge Hànzì,el nombre suele tener uno o dos caracteres,El nombre de pila suele contener uno o dos caracteres elegidos por su sonido y significado.,欣／小明,Xīn / Xiǎomíng,Ejemplos de nombres de pila de uno y dos caracteres.,10-12,nombre;caracter
+FC076,frase,nombres,我的名字是Jan。,Wǒ de míngzi shì Jan.,Mi nombre es Jan.,Patrón 我的名字是 + nombre.,我的名字是Jan。,Wǒ de míngzi shì Jan.,Mi nombre es Jan.,8,presentacion;patron
+FC077,frase,nombres,我叫小明。,Wǒ jiào Xiǎomíng.,Me llamo Xiaoming.,Patrón 我叫 + nombre.,我叫小明。,Wǒ jiào Xiǎomíng.,Me llamo Xiaoming.,8,presentacion;patron
+FC078,frase,nombres,他姓吴。,Tā xìng Wú.,Él se apellida Wu.,Patrón sujeto + 姓 + apellido.,他姓吴。,Tā xìng Wú.,Él se apellida Wu.,8,apellido;patron
+FC079,frase,presentaciones,大家好！我叫Dani，你们好吗？,"Dàjiā hǎo! Wǒ jiào Dani, nǐmen hǎo ma?","¡Hola a todos! Me llamo Dani, ¿cómo estáis?",Presentación y saludo a un grupo.,大家好！我叫Dani，你们好吗？,"Dàjiā hǎo! Wǒ jiào Dani, nǐmen hǎo ma?","¡Hola a todos! Me llamo Dani, ¿cómo estáis?",9,deberes;presentacion
+FC080,frase,presentaciones,我姓García，我的名字是Carla。,"Wǒ xìng García, wǒ de míngzi shì Carla.",Mi apellido es García y mi nombre es Carla.,Combina las estructuras con 姓 y 名字.,我姓García，我的名字是Carla。,"Wǒ xìng García, wǒ de míngzi shì Carla.",Mi apellido es García y mi nombre es Carla.,9,deberes;apellido;nombre
+FC081,frase,presentaciones,你们好，你们好吗？,"Nǐmen hǎo, nǐmen hǎo ma?","Hola a todos, ¿cómo estáis?",Saludo y pregunta a varias personas.,你们好，你们好吗？,"Nǐmen hǎo, nǐmen hǎo ma?","Hola a todos, ¿cómo estáis?",9,deberes;saludo
+FC082,frase,presentaciones,你好，我是José，她是Fátima。,"Nǐ hǎo, wǒ shì José, tā shì Fátima.","Hola, yo soy José y ella es Fátima.",Presenta al hablante y a otra persona.,你好，我是José，她是Fátima。,"Nǐ hǎo, wǒ shì José, tā shì Fátima.","Hola, yo soy José y ella es Fátima.",9,deberes;presentacion
+FC083,frase,presentaciones,你好，我是Manuel，我的爸爸是Pablo。,"Nǐ hǎo, wǒ shì Manuel, wǒ de bàba shì Pablo.","Hola, soy Manuel y mi padre es Pablo.",Ejemplo de presentación familiar de las notas.,你好，我是Manuel，我的爸爸是Pablo。,"Nǐ hǎo, wǒ shì Manuel, wǒ de bàba shì Pablo.","Hola, soy Manuel y mi padre es Pablo.",9,deberes;familia
+FC084,frase,presentaciones,我的妈妈姓徐，我姓刘。,"Wǒ de māma xìng Xú, wǒ xìng Liú.",Mi madre se apellida Xu y yo me apellido Liu.,Ejemplo que contrasta dos apellidos familiares.,我的妈妈姓徐，我姓刘。,"Wǒ de māma xìng Xú, wǒ xìng Liú.",Mi madre se apellida Xu y yo me apellido Liu.,9,deberes;familia;apellido
+FC085,palabra,nombres,陆,lù,tierra / continente; apellido Lu,Carácter con una historia antigua; también puede funcionar como apellido.,陆,Lù,apellido Lu,11,caracter;apellido
+FC086,frase,presentaciones,你好，我叫张欣。,"Nǐ hǎo, wǒ jiào Zhāng Xīn.","Hola, me llamo Zhang Xin.",Ejemplo de nombre chino con el apellido antes del nombre.,你好，我叫张欣。,"Nǐ hǎo, wǒ jiào Zhāng Xīn.","Hola, me llamo Zhang Xin.",11,presentacion;nombre
+FC087,frase,familia,我的爸爸姓刘。,Wǒ de bàba xìng Liú.,Mi padre se apellida Liu.,Patrón posesivo familiar + 姓 + apellido.,我的爸爸姓刘。,Wǒ de bàba xìng Liú.,Mi padre se apellida Liu.,11,familia;apellido
+FC088,palabra,preguntas,什么,shénme,qué,"Interrogativo para cosas, nombres o información no personal.",你叫什么？,Nǐ jiào shénme?,¿Cómo te llamas?,11-12,interrogativo;pregunta_abierta
+FC089,palabra,preguntas,谁,shéi / shuí,quién,Interrogativo para personas; ambas pronunciaciones son habituales.,谁叫王泽？,Shéi jiào Wáng Zé?,¿Quién se llama Wang Ze?,11-14,interrogativo;pregunta_abierta
+FC090,concepto,preguntas,疑问词原位,yíwèncí yuánwèi,el interrogativo ocupa la posición de la respuesta,"En preguntas abiertas, 什么 o 谁 sustituye exactamente la información desconocida sin cambiar el orden básico de la frase.",我爸爸叫张华。→ 谁叫张华？,Wǒ bàba jiào Zhāng Huá. → Shéi jiào Zhāng Huá?,Mi padre se llama Zhang Hua. → ¿Quién se llama Zhang Hua?,11,gramatica;pregunta_abierta
+FC091,frase,preguntas,我爸爸叫张华。,Wǒ bàba jiào Zhāng Huá.,Mi padre se llama Zhang Hua.,Oración afirmativa que sirve como base para dos preguntas abiertas.,我爸爸叫什么？,Wǒ bàba jiào shénme?,¿Cómo se llama mi padre?,11,familia;nombre
+FC092,frase,preguntas,谁叫张华？,Shéi jiào Zhāng Huá?,¿Quién se llama Zhang Hua?,谁 reemplaza a la persona desconocida que ocupa la posición de sujeto.,我爸爸叫张华。,Wǒ bàba jiào Zhāng Huá.,Mi padre se llama Zhang Hua.,11,interrogativo;quien
+FC093,frase,preguntas,我爸爸叫什么？,Wǒ bàba jiào shénme?,¿Cómo se llama mi padre?,什么 reemplaza al nombre desconocido después de 叫.,我爸爸叫张华。,Wǒ bàba jiào Zhāng Huá.,Mi padre se llama Zhang Hua.,11,interrogativo;que
+FC094,frase,preguntas,他的名字是吴芳。,Tā de míngzi shì Wú Fāng.,Su nombre es Wu Fang.,Oración afirmativa con posesión y nombre.,谁的名字是吴芳？,Shéi de míngzi shì Wú Fāng?,¿De quién es el nombre Wu Fang?,11,posesion;nombre
+FC095,frase,preguntas,谁的名字是吴芳？,Shéi de míngzi shì Wú Fāng?,¿De quién es el nombre Wu Fang?,谁的 significa 'de quién'.,他的名字是吴芳。,Tā de míngzi shì Wú Fāng.,Su nombre es Wu Fang.,11,interrogativo;posesion
+FC096,frase,preguntas,我奶奶姓沈。,Wǒ nǎinai xìng Shěn.,Mi abuela paterna se apellida Shen.,Afirmación usada como base de una pregunta con 什么.,我奶奶姓什么？,Wǒ nǎinai xìng shénme?,¿Cómo se apellida mi abuela paterna?,12,familia;apellido
+FC097,frase,preguntas,我奶奶姓什么？,Wǒ nǎinai xìng shénme?,¿Cómo se apellida mi abuela paterna?,什么 sustituye el apellido desconocido.,我奶奶姓沈。,Wǒ nǎinai xìng Shěn.,Mi abuela paterna se apellida Shen.,12,interrogativo;apellido
+FC098,frase,preguntas,你的爷爷叫王泽。,Nǐ de yéye jiào Wáng Zé.,Tu abuelo paterno se llama Wang Ze.,Afirmación usada como base de una pregunta con 谁.,谁叫王泽？,Shéi jiào Wáng Zé?,¿Quién se llama Wang Ze?,12,familia;nombre
+FC099,frase,preguntas,谁叫王泽？,Shéi jiào Wáng Zé?,¿Quién se llama Wang Ze?,谁 reemplaza al sujeto desconocido.,你的爷爷叫王泽。,Nǐ de yéye jiào Wáng Zé.,Tu abuelo paterno se llama Wang Ze.,12,interrogativo;quien
+FC100,frase,preguntas,您叫什么？,Nín jiào shénme?,¿Cómo se llama usted?,Pregunta formal por el nombre.,我叫Dani。,Wǒ jiào Dani.,Me llamo Dani.,12,formal;nombre
+FC101,frase,preguntas,你好，谁叫王强？,"Nǐ hǎo, shéi jiào Wáng Qiáng?","Hola, ¿quién se llama Wang Qiang?",Pregunta por la persona que tiene un nombre concreto.,我的爷爷叫王强。,Wǒ de yéye jiào Wáng Qiáng.,Mi abuelo paterno se llama Wang Qiang.,12,interrogativo;nombre
+FC102,frase,preguntas,我的爷爷叫王强。,Wǒ de yéye jiào Wáng Qiáng.,Mi abuelo paterno se llama Wang Qiang.,Respuesta al patrón 谁叫 + nombre.,谁叫王强？,Shéi jiào Wáng Qiáng?,¿Quién se llama Wang Qiang?,12,familia;respuesta
+FC103,palabra,tiempo,上,shàng,arriba / sobre / anterior,Componente de 上午 y 早上.,上午,shàngwǔ,por la mañana,13,direccion;caracter
+FC104,palabra,tiempo,下,xià,abajo / debajo / siguiente,Componente de 下午.,下午,xiàwǔ,por la tarde,13,direccion;caracter
+FC105,palabra,tiempo,午,wǔ,mediodía,"Componente que aparece en 上午, 中午 y 下午.",中午,zhōngwǔ,al mediodía,13,tiempo;caracter
+FC106,palabra,tiempo,早上,zǎoshang,por la mañana temprano,Franja matutina; las notas la sitúan aproximadamente entre las 6 y las 11.,早上好！,Zǎoshang hǎo!,¡Buenos días!,13-14,tiempo;saludo
+FC107,palabra,tiempo,上午,shàngwǔ,por la mañana,Franja anterior al mediodía.,上午好！,Shàngwǔ hǎo!,¡Buenos días!,13,tiempo
+FC108,palabra,tiempo,中午,zhōngwǔ,al mediodía,Franja alrededor del mediodía; las notas la sitúan aproximadamente entre las 11 y las 13.,中午好！,Zhōngwǔ hǎo!,¡Buenas al mediodía!,13,tiempo
+FC109,palabra,tiempo,下午,xiàwǔ,por la tarde,Franja posterior al mediodía; las notas la sitúan aproximadamente entre las 13 y las 17.,下午好！,Xiàwǔ hǎo!,¡Buenas tardes!,13,tiempo;saludo
+FC110,palabra,tiempo,晚上,wǎnshang,por la tarde-noche / por la noche,Franja nocturna; las notas la sitúan aproximadamente entre las 18 y las 23.,晚上好！,Wǎnshang hǎo!,¡Buenas noches!,13-14,tiempo;saludo
+FC111,palabra,tiempo,凌晨,língchén,de madrugada,Horas después de medianoche y antes del amanecer; las notas indican aproximadamente de 0 a 5.,凌晨,língchén,de madrugada,13,tiempo
+FC112,concepto,saludos,时间段＋好,shíjiānduàn + hǎo,parte del día + 好,"Se puede formar un saludo añadiendo 好 a una parte del día: 早上好, 下午好, 晚上好.",下午好！,Xiàwǔ hǎo!,¡Buenas tardes!,13,patron;saludo
+FC113,frase,saludos,早上好！,Zǎoshang hǎo!,¡Buenos días!,Saludo explícito de la mañana.,早上好，我是王芳。,"Zǎoshang hǎo, wǒ shì Wáng Fāng.","Buenos días, soy Wang Fang.",13-14,saludo;manana
+FC114,frase,saludos,下午好！,Xiàwǔ hǎo!,¡Buenas tardes!,Saludo explícito de la tarde.,下午好！,Xiàwǔ hǎo!,¡Buenas tardes!,13,saludo;tarde
+FC115,frase,saludos,早安！,Zǎo'ān!,¡Buenos días!,Saludo breve de la mañana.,早安，谁是王芳？,"Zǎo'ān, shéi shì Wáng Fāng?","Buenos días, ¿quién es Wang Fang?",13-14,saludo;manana
+FC116,frase,saludos,午安！,Wǔ'ān!,¡Buenas tardes!,Saludo breve usado alrededor del mediodía o por la tarde; menos frecuente que 下午好 en muchas regiones.,午安！,Wǔ'ān!,¡Buenas tardes!,13,saludo;tarde
+FC117,frase,saludos,晚安！,Wǎn'ān!,¡Buenas noches!,"Se usa principalmente al despedirse por la noche o antes de dormir, no como saludo inicial general.",晚安！,Wǎn'ān!,¡Buenas noches!,13,saludo;despedida
+FC118,frase,saludos,再见！,Zàijiàn!,¡Adiós! / ¡Hasta luego!,Despedida estándar.,再见！,Zàijiàn!,¡Hasta luego!,14,despedida
+FC119,frase,saludos,拜拜！,Bàibài!,¡Chao! / ¡Adiós!,Despedida informal tomada del inglés 'bye-bye'.,拜拜！,Bàibài!,¡Chao!,14,despedida;informal
+FC120,frase,presentaciones,晚上好，您姓什么？,"Wǎnshang hǎo, nín xìng shénme?","Buenas noches, ¿cómo se apellida usted?",Saludo nocturno seguido de una pregunta formal por el apellido.,我姓孙。,Wǒ xìng Sūn.,Me apellido Sun.,14,dictado;formal;apellido
+FC121,frase,presentaciones,我姓孙。,Wǒ xìng Sūn.,Me apellido Sun.,Respuesta con el patrón 我姓 + apellido.,您姓什么？,Nín xìng shénme?,¿Cómo se apellida usted?,14,dictado;apellido
+FC122,frase,presentaciones,早安，谁是王芳？,"Zǎo'ān, shéi shì Wáng Fāng?","Buenos días, ¿quién es Wang Fang?",Pregunta de identificación con 谁是 + nombre.,早上好，我是王芳。,"Zǎoshang hǎo, wǒ shì Wáng Fāng.","Buenos días, soy Wang Fang.",14,dictado;identificacion
+FC123,frase,presentaciones,早上好，我是王芳。,"Zǎoshang hǎo, wǒ shì Wáng Fāng.","Buenos días, soy Wang Fang.",Respuesta de identificación con 我是 + nombre.,谁是王芳？,Shéi shì Wáng Fāng?,¿Quién es Wang Fang?,14,dictado;presentacion
+FC124,palabra,bebidas,奶,nǎi,leche,Sustantivo y componente de 奶茶.,奶茶,nǎichá,té con leche,14,bebida;ingrediente
+FC125,palabra,bebidas,茶,chá,té,Sustantivo y componente de 奶茶 y 珍珠奶茶.,奶茶,nǎichá,té con leche,14,bebida;ingrediente
+FC126,palabra,bebidas,珍珠,zhēnzhū,perla,"En 珍珠奶茶 se refiere a las bolitas de tapioca, similares a perlas.",珍珠奶茶,zhēnzhū nǎichá,té con leche y perlas de tapioca,14,bebida;ingrediente
+FC127,palabra,bebidas,珍珠奶茶,zhēnzhū nǎichá,bubble tea / té con leche y tapioca,Literalmente 'té con leche de perlas'.,我喜欢珍珠奶茶。,Wǒ xǐhuan zhēnzhū nǎichá.,Me gusta el bubble tea.,14,bebida
+FC128,concepto,pronunciacion,拼音,pīnyīn,pinyin,Sistema de transcripción del mandarín con letras latinas y marcas de tono.,nǐ hǎo,nǐ hǎo,hola,15,pronunciacion;escritura
+FC129,concepto,pronunciacion,声调,shēngdiào,tonos,Cada sílaba del mandarín tiene un tono léxico o tono neutro; el tono puede cambiar el significado.,mā / má / mǎ / mà / ma,mā / má / mǎ / mà / ma,cinco realizaciones tonales habituales en materiales didácticos,15,pronunciacion;tono
+FC130,concepto,pronunciacion,声调符号标在元音上,shēngdiào fúhào biāo zài yuányīn shàng,la marca tonal va sobre una vocal,Las consonantes nunca llevan la marca de tono en pinyin.,nǐ,nǐ,La marca está sobre la vocal i.,15,pinyin;tono;regla
+FC131,concepto,pronunciacion,标调优先顺序：a、o、e,"biāodiào yōuxiān shùnxù: a, o, e","prioridad para colocar el tono: a, o, e","Si una sílaba contiene a, la marca va sobre a; en caso contrario se priorizan o y e antes de las vocales restantes.",hǎo,hǎo,"En ao, la marca va sobre a.",15,pinyin;tono;regla
+FC132,concepto,pronunciacion,iu／ui 标在后一个元音上,iu / ui biāo zài hòu yí ge yuányīn shàng,"en iu y ui, el tono va en la segunda vocal",Excepción práctica de colocación: liú y guǐ llevan la marca en la segunda letra del grupo vocálico.,liú / guǐ,liú / guǐ,Liu / fantasma,15,pinyin;tono;regla
+FC133,concepto,pronunciacion,每个音节最多一个声调符号,měi ge yīnjié zuìduō yí ge shēngdiào fúhào,máximo una marca tonal por sílaba,"Aunque una sílaba tenga varias vocales, solo una recibe la marca tonal.",zěnme yàng,zěnme yàng,qué tal / cómo,15,pinyin;tono;regla
+FC134,concepto,pronunciacion,j、q、x、y 后面的 ü 去掉两点,"j, q, x, y hòumiàn de ü qùdiào liǎng diǎn","tras j, q, x o y, ü pierde los dos puntos","Se escribe ju, qu, xu o yu, pero la vocal se pronuncia como ü.",女 → nǚ；去 → qù,nǚ; qù,mujer; ir,15,pinyin;u_dieresis;regla
