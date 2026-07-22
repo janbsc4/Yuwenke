@@ -1,0 +1,42 @@
+{
+  "name": "yuwenke-flashcards",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "test": "vitest run --exclude tests/firestore.rules.test.ts",
+    "test:watch": "vitest --exclude tests/firestore.rules.test.ts",
+    "test:rules": "firebase emulators:exec --project demo-yuwenke --only firestore \"vitest run --config vitest.rules.config.ts\"",
+    "test:all": "npm test && npm run test:rules"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "@astrojs/react": "^6.0.1",
+    "astro": "^7.1.3",
+    "firebase": "^12.16.0",
+    "papaparse": "^5.5.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@firebase/rules-unit-testing": "^5.0.1",
+    "@testing-library/jest-dom": "^7.0.0",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "firebase-tools": "^15.24.0",
+    "jsdom": "^29.1.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.10"
+  }
+}

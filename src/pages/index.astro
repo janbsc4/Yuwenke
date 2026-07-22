@@ -1,0 +1,50 @@
+---
+import FlashcardApp from "../components/FlashcardApp";
+import { loadFlashcards } from "../data/loadFlashcards";
+import "../styles/global.css";
+
+const cards = loadFlashcards();
+const canonicalUrl = new URL(import.meta.env.BASE_URL, Astro.site);
+const socialImageUrl = new URL(`${import.meta.env.BASE_URL}og.png`, Astro.site);
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Tarjetas de vocabulario, frases y conceptos de mandarín con explicaciones en español."
+    />
+    <meta name="theme-color" content="#f5f0e6" />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:title" content="Notas de chino · Flashcards" />
+    <meta
+      property="og:description"
+      content="Mandarín y español en dos sentidos, a partir de mis notas de clase."
+    />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={socialImageUrl} />
+    <meta
+      property="og:image:alt"
+      content="Notas de chino, tarjetas de mandarín y español"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Notas de chino · Flashcards" />
+    <meta
+      name="twitter:description"
+      content="Mandarín y español en dos sentidos, a partir de mis notas de clase."
+    />
+    <meta name="twitter:image" content={socialImageUrl} />
+    <title>Notas de chino · Flashcards</title>
+  </head>
+  <body>
+    <FlashcardApp cards={cards} client:load />
+    <noscript>
+      <p class="noscript-message">Necesitas activar JavaScript para usar las tarjetas.</p>
+    </noscript>
+  </body>
+</html>

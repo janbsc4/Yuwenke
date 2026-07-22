@@ -27,6 +27,11 @@ node_modules/
 dist/
 build/
 coverage/
+.astro/
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
 
 # Python
 __pycache__/

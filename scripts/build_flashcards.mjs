@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import Papa from "papaparse";
 
 const outputPath = new URL("../chino_flashcards.csv", import.meta.url);
 
@@ -166,6 +167,33 @@ for (const [index, row] of rows.entries()) {
   if (row.length !== header.length - 1) {
     throw new Error(`Fila ${index + 1}: se esperaban ${header.length - 1} campos y hay ${row.length}`);
   }
+}
+
+// Progress is stored against these positional IDs. Existing identities must
+// stay in place; new cards may be appended without changing saved progress.
+try {
+  const currentCsv = await fs.readFile(outputPath, "utf8");
+  const current = Papa.parse(currentCsv, { header: true, skipEmptyLines: true });
+  if (current.errors.length > 0) {
+    throw new Error(`No se pudo validar el CSV actual: ${current.errors[0].message}`);
+  }
+  if (current.data.length > rows.length) {
+    throw new Error(
+      "No se pueden eliminar tarjetas sin una migración explícita de los IDs guardados.",
+    );
+  }
+  current.data.forEach((card, index) => {
+    const expectedId = `FC${String(index + 1).padStart(3, "0")}`;
+    const nextRow = rows[index];
+    const [, , nextHanzi, nextPinyin] = nextRow;
+    if (card.id !== expectedId || card.hanzi !== nextHanzi || card.pinyin !== nextPinyin) {
+      throw new Error(
+        `${expectedId} ha cambiado de identidad. Conserva el orden existente y añade tarjetas solo al final.`,
+      );
+    }
+  });
+} catch (error) {
+  if (error?.code !== "ENOENT") throw error;
 }
 
 const escapeCsv = (value) => {
