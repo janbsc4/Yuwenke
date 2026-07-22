@@ -280,7 +280,6 @@ a {
   background: var(--cinnabar-soft);
 }
 
-.direction-tip,
 .guest-note,
 .inline-alert {
   display: flex;
@@ -295,19 +294,6 @@ a {
   font-size: 0.86rem;
 }
 
-.direction-tip > span {
-  display: grid;
-  width: 30px;
-  height: 30px;
-  flex: 0 0 auto;
-  place-items: center;
-  border-radius: 8px;
-  background: var(--cinnabar-soft);
-  color: var(--cinnabar);
-  font-family: var(--font-hanzi);
-}
-
-.direction-tip p,
 .guest-note p {
   flex: 1;
   margin: 0;
@@ -1276,18 +1262,15 @@ kbd {
     font-size: 0.76rem;
   }
 
-  .direction-tip,
   .guest-note {
     align-items: flex-start;
     flex-wrap: wrap;
   }
 
-  .direction-tip p,
   .guest-note p {
     min-width: calc(100% - 46px);
   }
 
-  .direction-tip .text-button,
   .guest-note .text-button {
     min-height: 36px;
     margin-left: 42px;

@@ -102,7 +102,6 @@ export default function FlashcardApp({ cards }: FlashcardAppProps) {
   const [filterSheetOpen, setFilterSheetOpen] = useState(false);
   const [loginOpen, setLoginOpen] = useState(false);
   const [accountOpen, setAccountOpen] = useState(false);
-  const [showDirectionTip, setShowDirectionTip] = useState(false);
   const [queue, setQueue] = useState<StudyUnit[]>([]);
   const [queueIndex, setQueueIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
@@ -144,7 +143,6 @@ export default function FlashcardApp({ cards }: FlashcardAppProps) {
           : "mastered");
     setActiveView(initial);
     setViewInitialized(true);
-    setShowDirectionTip(readPreference("yuwenke:direction-tip:v1") !== "seen");
   }, [counts, ready, viewInitialized]);
 
   useEffect(() => {
@@ -193,11 +191,6 @@ export default function FlashcardApp({ cards }: FlashcardAppProps) {
     dialog.addEventListener("keydown", trapFocus);
     return () => dialog.removeEventListener("keydown", trapFocus);
   }, [filterSheetOpen, loginOpen]);
-
-  const dismissDirectionTip = () => {
-    writePreference("yuwenke:direction-tip:v1", "seen");
-    setShowDirectionTip(false);
-  };
 
   const closeFilterSheet = useCallback(() => {
     setFilterSheetOpen(false);
@@ -331,7 +324,7 @@ export default function FlashcardApp({ cards }: FlashcardAppProps) {
           </span>
           <span>
             <strong>Notas de chino</strong>
-            <small>Una clase, dos sentidos</small>
+            <small>Aprende Mucho Chino</small>
           </span>
         </a>
 
@@ -403,18 +396,6 @@ export default function FlashcardApp({ cards }: FlashcardAppProps) {
           </button>
         ))}
       </nav>
-
-      {showDirectionTip ? (
-        <aside className="direction-tip">
-          <span aria-hidden="true">双</span>
-          <p>
-            Cada tarjeta se practica en dos sentidos: chino → español y español → chino.
-          </p>
-          <button type="button" className="text-button" onClick={dismissDirectionTip}>
-            Entendido
-          </button>
-        </aside>
-      ) : null}
 
       {!user ? (
         <aside className="guest-note">

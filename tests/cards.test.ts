@@ -9,6 +9,7 @@ describe("flashcard CSV", () => {
     expect(cards).toHaveLength(134);
     expect(new Set(cards.map((card) => card.id)).size).toBe(134);
     expect(cards.every((card) => card.hanzi && card.pinyin && card.espanol)).toBe(true);
+    expect(cards.find((card) => card.id === "FC089")?.pinyin).toBe("shuí / shéi");
   });
 
   it("rejects duplicate IDs", () => {

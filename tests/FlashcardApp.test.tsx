@@ -25,6 +25,10 @@ describe("FlashcardApp", () => {
     render(<FlashcardApp cards={[card]} />);
 
     expect(await screen.findByText("Descubrir")).toBeInTheDocument();
+    expect(screen.getByText("Aprende Mucho Chino")).toBeInTheDocument();
+    expect(
+      screen.queryByText(/Cada tarjeta se practica en dos sentidos/),
+    ).not.toBeInTheDocument();
     const reveal = await screen.findByRole("button", { name: /Mostrar respuesta/ });
     await user.click(reveal);
     expect(screen.getByText("Un saludo básico.")).toBeInTheDocument();
