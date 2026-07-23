@@ -12,7 +12,7 @@ The site is a static Astro app with one React study interface. It can be hosted 
 
 It includes:
 
-- 134 source cards and 268 independent study directions;
+- 139 source cards and 278 independent study directions;
 - `Estudiar`, `Descubrir`, and `Dominadas` modes;
 - Mandarin → Spanish and Spanish → Mandarin prompts;
 - search by characters, pinyin, Spanish, explanations, and tags;
@@ -63,7 +63,7 @@ npm install
 node scripts/build_flashcards.mjs
 ```
 
-The script preserves the existing `FC001`–`FC134` identities because saved progress uses those IDs. Existing cards must not be reordered or removed; append new rows at the end. A deliberate identity migration should update both the data and affected progress records.
+The script preserves the existing `FC001`–`FC139` identities because saved progress uses those IDs. Existing cards must not be reordered or removed; append new rows at the end. A deliberate identity migration should update both the data and affected progress records.
 
 ## Optional Firebase synchronization
 

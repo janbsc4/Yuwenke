@@ -6,7 +6,7 @@ Build a Spanish-language flashcard app using Astro with one React/TypeScript cli
 
 This fits the free tiers: GitHub Pages supports static HTML/CSS/JavaScript from public repositories, while Firestore currently includes 1 GiB storage, 50,000 reads/day, and 20,000 writes/day at no cost. [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages), [Firestore quotas](https://firebase.google.com/docs/firestore/quotas)
 
-Google Sheets will not be used in v1. The existing 134-card CSV is small, versioned, reviewable, and does not need a live content database.
+Google Sheets will not be used in v1. The existing 139-card CSV is small, versioned, reviewable, and does not need a live content database.
 
 ## Product behavior
 
@@ -62,7 +62,7 @@ Google Sheets will not be used in v1. The existing 134-card CSV is small, versio
 - Component-test both card directions, flip/rating controls, empty learning queues, Discover behavior, Spanish labels, authentication states, and responsive keyboard interaction.
 - Test Firestore rules with the emulator: unauthenticated denial, own-user access, cross-user denial, invalid payload denial, and valid progress writes.
 - Add end-to-end tests for guest persistence, Discover → Learning → Known flow, reload behavior, filters, `/Yuwenke` asset paths, sign-in merge, sign-out cleanup, and mobile layout.
-- Acceptance requires all 134 cards to load, guest study to work without Firebase, authenticated progress to synchronize across two sessions, and the deployed Pages URL to load without broken assets or routes.
+- Acceptance requires all 139 cards to load, guest study to work without Firebase, authenticated progress to synchronize across two sessions, and the deployed Pages URL to load without broken assets or routes.
 
 ## Assumptions
 

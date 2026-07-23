@@ -6,10 +6,17 @@ const header =
 describe("flashcard CSV", () => {
   it("loads and validates all class-note cards", () => {
     const cards = loadFlashcards();
-    expect(cards).toHaveLength(134);
-    expect(new Set(cards.map((card) => card.id)).size).toBe(134);
+    expect(cards).toHaveLength(139);
+    expect(new Set(cards.map((card) => card.id)).size).toBe(139);
     expect(cards.every((card) => card.hanzi && card.pinyin && card.espanol)).toBe(true);
     expect(cards.find((card) => card.id === "FC089")?.pinyin).toBe("shuí / shéi");
+    expect(cards.slice(-5).map((card) => card.hanzi)).toEqual([
+      "加油！",
+      "什么时候",
+      "跑步",
+      "洗澡",
+      "喝牛奶",
+    ]);
   });
 
   it("rejects duplicate IDs", () => {

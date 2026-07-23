@@ -26,7 +26,7 @@ describe("study domain", () => {
 
   it("creates one independent unit per direction", () => {
     const units = createStudyUnits(cards);
-    expect(units).toHaveLength(268);
+    expect(units).toHaveLength(278);
     expect(units.slice(0, 2).map((unit) => unit.direction)).toEqual([
       "hanzi-es",
       "es-hanzi",
@@ -38,7 +38,7 @@ describe("study domain", () => {
       matchesFilters(cards[1], { query: "ni", topic: "all", type: "all" }),
     ).toBe(true);
     expect(
-      matchesFilters(cards[1], { query: "como estas", topic: "all", type: "all" }),
+      matchesFilters(cards[1], { query: "como te llamas", topic: "all", type: "all" }),
     ).toBe(true);
   });
 
